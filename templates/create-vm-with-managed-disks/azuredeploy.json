@@ -65,7 +65,7 @@
         "umdOSDiskName": "[concat(toLower(variables('umdVirtualMachineName')),'OSDisk')]",
         "umdNetworkInterfaceName": "[toLower(variables('umdVirtualMachineName'))]",
         "umdPublicIpAddressName": "[concat(toLower(variables('umdVirtualMachineName')),'-ip')]",
-        "storageAccountName": "[concat(resourceGroup().name, 'storageforumd128')]"
+        "storageAccountName": "[concat(resourceGroup().name, 'storageumdisks')]"
     },
     "resources": [
         
